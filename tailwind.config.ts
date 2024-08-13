@@ -9,9 +9,12 @@ export default {
   plugins: [require('@tailwindcss/forms')],
   theme: {
     extend: {
+      backgroundImage: {
+        'custom-pattern': "url('/theme/keywind/login/resources/keep-background.jpeg')",
+      },
       colors: {
-        primary: colors.blue,
-        secondary: colors.gray,
+        primary: colors.orange,
+        secondary: colors.orange,
 
         provider: {
           apple: '#000000',
